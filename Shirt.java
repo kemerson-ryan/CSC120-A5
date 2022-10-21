@@ -1,13 +1,13 @@
 /*
- * Shirt class (template)
+ * Shirt class 
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author Ryan (K) Emerson
+ * @version 21 October 2022
  */
 public class Shirt {
 
     /*
-     * TODO: Modify this method to print ASCII Art Shirt
+     * Print ASCII Art Shirt
      */
     public void display() {
         System.out.println("          __      __");

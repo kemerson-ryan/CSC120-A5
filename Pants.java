@@ -1,13 +1,13 @@
 /*
- * Pants class (template)
+ * Pants class 
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author Ryan (K) Emerson
+ * @version 21 October 2022
  */
 public class Pants {
 
     /*
-     * TODO: Modify this method to print ASCII Art Pants
+     * Print ASCII Art Pants
      */
     public void display() {
         System.out.println("          _________");

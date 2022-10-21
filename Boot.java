@@ -1,8 +1,8 @@
 /*
- * Boot class (template)
+ * Boot class
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author Ryan (K) Emerson
+ * @version 21 October 2022
  */
 public class Boot {
   
@@ -14,7 +14,7 @@ public class Boot {
     }
 
     /*
-     * TODO: Modify this method to print ASCII Art Boot
+     * Print ASCII Art Boot
      */
     public void display() {
         if (this.direction.equals("left")) {

@@ -12,7 +12,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ### Level 1 (4 pts)
 
-_____ 1 pt: The `Pumpkin` class displays something pumpkin-like
+**YES** 1 pt: The `Pumpkin` class displays something pumpkin-like
 
 **YES** 1 pt: The `Shirt` class dislays something shirt-like
 
@@ -32,7 +32,7 @@ _____ 1 pt: The `Pumpkin` class displays something pumpkin-like
 
 **YES** 1 pt: The `Banner` class resizes its display to fit the supplied message
 
-_____ 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
+**YES** 1 pt: The message supplied to the `Banner` constructor is passed in via the command line
 
 **YES** 1 pt: The program displays a default message if none is supplied.
 
@@ -50,18 +50,18 @@ _____ (Kudos!) Boots are mirror images of one another
 
 **YES** 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+**YES** 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      **YES** Classes & class members all have Javadoc header comments
 
-      _____ Clear and consistent indentation of bracketed sections
+      **YES** Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      **YES** Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      **YES** Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      **YES** Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed `rubric.md` file)
+**YES** 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+**YES** 1 pt: `reflection.md` contains your reflection on the assignment

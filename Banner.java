@@ -1,8 +1,8 @@
 /*
- * Banner class (template)
+ * Banner class
  * Assignment 5: Bringing it All Together
- * @author R. Jordan Crouser + CSC120 (Fall '22))
- * @version 13 October 2022
+ * @author Ryan (K) Emerson
+ * @version 21 October 2022
  */
 public class Banner {
     
@@ -17,35 +17,48 @@ public class Banner {
     }
 
     /*
-     * TODO: Modify this method to print a decorative banner, resized to fit the message
+     * Print a decorative banner, resized to fit the message
      */
-    public void display() {
-        for(int i=0; i<l/4; i++){
+    public void display() { 
+
+        int firslas = l*2/3;
+        int midintro = l/4;
+        int mid = l*3/2;
+
+        for(int i=0; i<firslas; i++){
             System.out.print(" ");
         }
-        for(int i=0; i<l; i++){
-            System.out.print("*");
-        }
-        for(int i=0; i<l/4; i++){
-            System.out.print(" ");
+        for(int i=0; i<firslas; i++){
+            System.out.print("~");
         }
         System.out.println();
-        for(int i=0; i<l/4; i++){
-            System.out.print("<");
+        for(int i=0; i<midintro; i++){
+            System.out.print(" ");
+        }
+        for(int i=0; i<mid; i++){
+            System.out.print("~");
+        }
+        System.out.println();
+        for(int i=0; i<l/2; i++){
+            System.out.print("~");
         }
         System.out.print(this.message);
-        for(int i=0; i<l/4; i++){
-            System.out.print(">");
+        for(int i=0; i<l/2; i++){
+            System.out.print("~");
         }
         System.out.println();
-        for(int i=0; i<l/4; i++){
+        for(int i=0; i<midintro; i++){
             System.out.print(" ");
         }
-        for(int i=0; i<l; i++){
-            System.out.print("*");
+        for(int i=0; i<mid; i++){
+            System.out.print("~");
         }
-        for(int i=0; i<l/4; i++){
+        System.out.println();
+        for(int i=0; i<firslas; i++){
             System.out.print(" ");
+        }
+        for(int i=0; i<firslas; i++){
+            System.out.print("~");
         }
         System.out.println();
     }
